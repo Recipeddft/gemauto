@@ -1,0 +1,113 @@
+*{
+    overflow-x: hidden;
+    margin: 0px;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+.container .logo img{
+    width: 120px;
+}
+.nav{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("product-1.jpg");
+    height: 100vh;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    height: auto;
+    border-bottom: 1px soldi #ccc;
+}
+.navbar > div{
+    display: flex;
+    flex-direction: row;
+}
+.navbar .navigate a{
+    text-decoration: none;
+    color: #fff;
+    padding:15px 20px;
+    transition: 0.4s all ease;
+    border-radius: 7px;
+    height: 100%;
+    width: 100px;
+    text-align: center;
+}
+.navbar .navigate a:hover{
+    color: rgb(255, 102, 0);
+    background: #383838;
+}
+
+
+.front-text{
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    font-family: 'Iceland',serif;
+    transition: 1s ease-out;
+    opacity: 0;
+}
+h1{
+    font-size: 70px;
+}
+h4{
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.8s all ease;
+}
+
+.footer-sub{
+    display: flex;
+    justify-content: center;
+    font-family: 'Iceland',serif;
+}
+.footer-sub-1 h2{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.footer-sub-1 p{
+    font-size: 20px;
+    width: 450px;
+}
+.footer-sub{
+    background: #000;
+    color: #fff;
+    padding: 100px 20px;
+}
+.footer-sub > div{
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-sub-2{
+    background: #181818;
+    padding: 40px;
+}
+.footer-sub-2 h3{
+    font-size: 26px;
+}
+.footer-sub-2 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+.footer-sub-2 > div{
+    padding: 10px 0px;
+}
+#sub_email input[type="text"]{
+    color: #bbb;
+    background: #000;
+    outline: none;
+    border: 1px solid #000;
+    border-bottom: 1px solid #fff;
+    margin-right: 20px;
+}
+#sub_email button{
+    cursor: pointer;
+}
