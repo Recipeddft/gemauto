@@ -60,6 +60,50 @@ h4{
     transition: 0.8s all ease;
 }
 
+.search-bar span{
+    color: #000;
+    cursor: pointer;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar select{
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 7px;
+    background: #2c2c2c;
+    border:none;
+    color: #fff;
+}
+.search-bar option{
+    font-size: 16px;
+    text-align: center;
+}
+.search-bar{
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.search-home{
+    width: 500px;
+    backdrop-filter: blur(30px);
+    box-shadow: #797979 0px 0px 10px 0px;
+    border-radius: 10px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+justify-content: center; /* Centers horizontally */
+align-items: center;
+}
+
+
+
 .footer-sub{
     display: flex;
     justify-content: center;
